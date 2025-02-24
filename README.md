@@ -108,3 +108,7 @@ Para llevar a cabo este desafío de manera eficiente, sigue estas recomendacione
 
 
 **¡Diviértete construyendo!** 🚀
+
+
+Daniel David Gutierrez
+https://dsaw-2025-i.github.io/item-list-danielguve/
