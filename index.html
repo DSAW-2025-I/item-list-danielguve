@@ -1,74 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product list with cart</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <!-- Enlazamos con Bootstrap CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Vinculamos el archivo de estilos -->
 </head>
 <body>
 
-  Desserts
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Carrito de Compras</h1>
 
-  Waffle with Berries
-  Waffle
-  6.50
-  Add to Cart
+    <!-- Grilla de productos (3x2) -->
+    <div class="row" id="productos">
+      <!-- Los productos se generarán aquí dinámicamente -->
+    </div>
 
-  Vanilla Bean Crème Brûlée
-  Crème Brûlée
-  7.00
-  Add to Cart
+    <!-- Carrito -->
+    <div class="card mt-5" id="carrito">
+      <div class="card-header">
+        <h2>Carrito <span id="numero-pedidos">(0)</span></h2>
+      </div>
+      <div class="card-body">
+        <p>No hay productos en el carrito.</p>
+      </div>
+      <div class="card-footer">
+        <h3>Total: $<span id="total">0</span></h3>
+      </div>
+    </div>
 
-  Macaron Mix of Five
-  Macaron
-  8.00
-  Add to Cart
-
-  Classic Tiramisu
-  Tiramisu
-  5.50
-  Add to Cart
-
-  Pistachio Baklava
-  Baklava
-  4.00
-  Add to Cart
-
-  Lemon Meringue Pie
-  Pie
-  5.00
-  Add to Cart
-
-  Red Velvet Cake
-  Cake
-  4.50
-  Add to Cart
-
-  Salted Caramel Brownie
-  Brownie
-  4.50
-  Add to Cart
-
-  Vanilla Panna Cotta
-  Panna Cotta
-  6.50
-  Add to Cart
-
-  Your Cart (<!-- Quantity -->)
-  Your added items will appear here
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <!-- Botón para restablecer -->
+    <div class="text-center mt-4">
+      <button class="btn btn-danger" onclick="restablecerPedido()">Restablecer Pedido</button>
+    </div>
   </div>
+
+  <!-- Enlazamos con el script de Bootstrap y el nuestro -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script> <!-- Vinculamos el archivo de script -->
 </body>
 </html>
