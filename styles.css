@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8ebe0; /* Fondo en color beige claro (piel suave) */
+    color: #333; /* Texto en color oscuro para buen contraste */
+  }
+  
+  h1, h2 {
+    color: #8c6f47; /* Un tono marrón cálido para los encabezados */
+  }
+  
+  .producto {
+    padding: 10px;
+    border: 1px solid #e6c8a9; /* Borde en un tono beige suave */
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff7f1; /* Fondo de los productos en color piel claro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para resaltar */
+  }
+  
+  .producto img {
+    width: 100%;
+    max-width: 200px; /* Tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 5px;
+    background-color: #d6a97e; /* Botones en un tono cálido, beige-marrón */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c78e6e; /* Efecto hover en un marrón más oscuro */
+  }
+  
+  .flecha {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  .cantidad {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  #carrito {
+    margin-top: 20px;
+    background-color: #fff7f1; /* Fondo color piel claro para el carrito */
+    border: 1px solid #e6c8a9; /* Borde en tono beige suave */
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .card-header {
+    background-color: #d6a97e; /* Fondo de cabecera del carrito en color cálido */
+    color: #fff;
+  }
+  
+  .card-body {
+    background-color: #fff; /* Fondo blanco para el cuerpo del carrito */
+  }
+  
+  .card-footer {
+    background-color: #d6a97e; /* Fondo cálido en el pie del carrito */
+    color: #fff;
+  }
+  
+  #numero-pedidos {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    color: #8c6f47; /* Títulos y textos centrados en marrón cálido */
+  }
+  
+  .list-group-item {
+    background-color: #f8ebe0; /* Fondo de los ítems del carrito en un tono piel claro */
+    border-color: #e6c8a9;
+  }
+  
+  .list-group-item:hover {
+    background-color: #d6a97e; /* Hover en marrón cálido */
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #c78e6e; /* Botón de restablecer en tono marrón */
+    border-color: #c78e6e;
+  }
+  
+  .btn-danger:hover {
+    background-color: #8c6f47; /* Hover en un marrón más oscuro */
+    border-color: #8c6f47;
+  }
+  
